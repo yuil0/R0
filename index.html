@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>server.sample_1.YUIL.2017</TITLE>
+<STYLE>
+.layer1{COLOR:yellow; font-size:200%;} 
+.layer2{COLOR:yellow; font-size:100%;} 
+a:link{COLOR:#FFFFFF;}
+a:HOVER{text-decoration:none; COLOR:yellow;}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR=#EEFFEE>
+<TABLE CLASS=layer1  HEIGHT=100%> <!--   -->
+<TR ALIGN=CENTER> <!--   -->
+<TD BGCOLOR=#AAEEEE> <!--   -->
+<IMG SRC=#WEATHER_IMG#>
+</TD>
+<TD BGCOLOR=#AAEEEE WIDTH=10000>Weather control. YUIL.2017</TD>
+</TR>
+<TR>
+<TD>
+ <TABLE CLASS=layer2 CELLPADDING=5 CELLSPACING=2 WIDTH=100% HEIGHT=100%> <!-- -->
+	 <TR><TD BGCOLOR=#AAEEEE><A HREF=http://localhost:90>Refresh</A></TD></TR>  <!-- javascript:alert("Worse") -->
+  <TR><TD BGCOLOR=#AAEEEE><A HREF=http://localhost:90/worse>Worse</A></TD></TR>  <!-- javascript:alert("Worse") -->
+  <TR><TD BGCOLOR=#AAEEEE><A HREF=http://localhost:90/better>Better</A></TD></TR>  <!-- javascript:alert("Better") -->
+	</TABLE>
+<!--
+ <FORM>
+	<input type="button" name="but_minus" value="-"><BR>
+	<input type="button" name="but_plus" value="+"><BR>
+	</FORM>
+-->	
+</TD>
+<TD BGCOLOR=#AAEEEE ALIGN=CENTER VALIGN=MIDDLE>#WHETER_VALUE#</TD></TR>
+</TABLE>
+
+</BODY>
+</HTML>
